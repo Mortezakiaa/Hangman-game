@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="bootstrap 5.2/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap 5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            min-width: 733px !important;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="display-1 text-center">Hangman Game</h1>
+
+    <div class="container-fluid">
+        <div class="words d-flex gap-3 flex-wrap justify-content-center mt-5">
+            <div class="btn bg-success text-white">A</div>
+            <div class="btn bg-success text-white">B</div>
+            <div class="btn bg-success text-white">C</div>
+            <div class="btn bg-success text-white">D</div>
+            <div class="btn bg-success text-white">E</div>
+            <div class="btn bg-success text-white">F</div>
+            <div class="btn bg-success text-white">G</div>
+            <div class="btn bg-success text-white">H</div>
+            <div class="btn bg-success text-white">I</div>
+            <div class="btn bg-success text-white">G</div>
+            <div class="btn bg-success text-white">K</div>
+            <div class="btn bg-success text-white">L</div>
+            <div class="btn bg-success text-white">M</div>
+            <div class="btn bg-success text-white">N</div>
+            <div class="btn bg-success text-white">O</div>
+            <div class="btn bg-success text-white">P</div>
+            <div class="btn bg-success text-white">Q</div>
+            <div class="btn bg-success text-white">R</div>
+            <div class="btn bg-success text-white">S</div>
+            <div class="btn bg-success text-white">T</div>
+            <div class="btn bg-success text-white">U</div>
+            <div class="btn bg-success text-white">V</div>
+            <div class="btn bg-success text-white">W</div>
+            <div class="btn bg-success text-white">X</div>
+            <div class="btn bg-success text-white">Y</div>
+            <div class="btn bg-success text-white">Z</div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="d-flex justify-content-center">
+            <img src="pics/hangman0.png" id="hangman" alt="hangman">
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="d-flex justify-content-center">
+            <p class="lead fs-1 fst-italic" style="letter-spacing: 10px;" id="demo"></p>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="d-flex justify-content-center">
+            <p class="text-center lead display-1" id="output"></p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
